@@ -1,4 +1,8 @@
-#![doc = include_str!("../README.md")]
+//! # nattysgrep
+//!
+//! This crate searches for argumetns in a file
+//! 
+//!
 
 pub fn search<'a>(first: &str, contents: &'a str) -> Vec<&'a str> {
     let mut results = Vec::new();
